@@ -22,8 +22,7 @@
     "react-native-screens": "~3.20.0",
     "react-native-system-navigation-bar": "^2.6.0",
     "react-native-vector-icons": "^9.2.0",
-    "react-native-pager-view": "6.1.2",
-    "undefined": "react-navigation/material-top-tabs"
+    "react-native-pager-view": "6.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
