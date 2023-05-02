@@ -12,7 +12,6 @@ export default function App() {
   NavigationBar.setVisibilityAsync("hidden");
   
   return (
-    
    <NavigationContainer>
     <StatusBar backgroundColor="#232634" barStyle= "light-content"/>
     <Routes/>

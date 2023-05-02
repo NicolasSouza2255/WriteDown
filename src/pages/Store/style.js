@@ -52,12 +52,12 @@ export default StyleSheet.create({
     fontSize: 20,
     color: '#C6D0F5',
     borderRadius : 10,
-    borderBottomWidth:0.8,
     paddingBottom : 10,
-    paddingTop : 10,
-    marginTop: 15,
+   
     marginLeft : 10,
     marginRight : 10,
+    justifyContent:'center',
+    textAlign:'center',
 
     
     
@@ -76,5 +76,26 @@ export default StyleSheet.create({
     borderColor : '#C6D0F5',
     borderWidth : 0.8
   },
+
+  ButtonText: {
+    fontSize: 18,
+    color: '#FFFFFF',
+    fontWeight : 'bold'
+   },
+
+   Button: {
+    
+    backgroundColor : '#A6D189',
+    borderRadius : 50,
+    paddingVertical : 8,
+    width : '50%',
+    alignSelf: 'center',
+    marginTop: 20,
+    justifyContent : 'center',
+    alignItems: 'center'
+  },
+
+
+ 
 
 });

@@ -92,7 +92,20 @@ export default StyleSheet.create({
   tag: {
    color: '#C6D0F5'
   },
-  
+  ButtonPlus: {
+    borderRadius : 100,
+    paddingVertical : 5,
+    width : '17%',
+    alignSelf: 'flex-end',
+    marginLeft : 3,
+    marginRight: 5,
+    marginBottom: 10,
+    justifyContent : 'center',
+    alignItems: 'center',
+    borderStyle: 'solid',
+    borderColor : '#C6D0F5',
+    borderWidth : 0.8
+  },
   
  
 });

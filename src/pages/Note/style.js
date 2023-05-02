@@ -21,12 +21,12 @@ export default StyleSheet.create({
   },
 
   title: {
-    fontSize: 40,
+    fontSize: 35,
     fontWeight : 'bold',
     marginTop: 28,
     marginBottom: 15,
-    alignSelf: 'center',
-    color : '#C6D0F5'
+    color : '#C6D0F5',
+
   },
 
    ButtonText: {
@@ -35,13 +35,6 @@ export default StyleSheet.create({
     fontWeight : 'bold'
    },
 
-   Button: {
-    borderRadius : 50,
-    paddingVertical : 8,
-    width : '30%',
-    justifyContent : 'center',
-    alignItems: 'center'
-  },
 
   Lock: {
     alignSelf: 'center',
@@ -62,5 +55,21 @@ export default StyleSheet.create({
     flexDirection:'row',
     alignItems: 'center'
   },
+  
+  containerNote: {
+    flex: 1,
+    backgroundColor: '#303446',
+    paddingStart: '5%',
+    paddingEnd: '5%',
+    
+  },
+
+  Notetext: {
+   fontSize: 20,
+    color:'#C6D0F5'
+  },
+  
+  
+  
 
 });
