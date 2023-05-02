@@ -3,12 +3,11 @@ import { View, Text, TouchableOpacity} from 'react-native';
 import styles from './style';
 import { useNavigation } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import * as NavigationBar from 'expo-navigation-bar';
+
 
 
 export default function Main() {
   
-  NavigationBar.setVisibilityAsync("hidden");
  const navigation = useNavigation();
 
  return (
@@ -28,8 +27,13 @@ export default function Main() {
          <Text style = {styles.tag}> TAG 1 </Text>
          </TouchableOpacity>
 
-         <TouchableOpacity style = {styles.Button}>
-         <Text style = {styles.tag}> TAG 2 </Text>
+         <TouchableOpacity style = {styles.ButtonV}>
+         <Text style = {styles.tag2}> TAG 2 </Text>
+         </TouchableOpacity>
+
+         
+         <TouchableOpacity style = {styles.ButtonG}>
+         <Text style = {styles.tag3}> TAG 3 </Text>
          </TouchableOpacity>
       </View>
 

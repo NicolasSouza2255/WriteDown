@@ -1,7 +1,6 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, TextInput} from 'react-native';
 import styles from './style';
-import { useNavigation } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import * as NavigationBar from 'expo-navigation-bar';
 
@@ -9,7 +8,6 @@ import * as NavigationBar from 'expo-navigation-bar';
 
 export default function Preferences() {
 
-    NavigationBar.setVisibilityAsync("hidden");
     
  return (
    <View style = {styles.container}>

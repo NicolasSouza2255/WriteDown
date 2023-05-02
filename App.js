@@ -9,8 +9,8 @@ import * as NavigationBar from 'expo-navigation-bar';
 
 export default function App() {
 
-  NavigationBar.setVisibilityAsync("hidden");
-  
+  NavigationBar.setBackgroundColorAsync("#303446");
+
   return (
    <NavigationContainer>
     <StatusBar backgroundColor="#232634" barStyle= "light-content"/>

@@ -7,7 +7,6 @@ import * as NavigationBar from 'expo-navigation-bar';
 
 export default function Login() {
 
- NavigationBar.setVisibilityAsync("hidden");
  const navigation = useNavigation();
 
  return (
@@ -30,9 +29,9 @@ export default function Login() {
           style = {styles.input}
           />
 
-          <TouchableOpacity
+          <TouchableOpacity style = {styles.ButtonT}
           onPress={() => navigation.navigate('Forgot')}>
-            <Text style = {styles.TextLinkF}>Forgot ?</Text>
+             <Text style = {styles.TextLinkF}>Forgot ?</Text>
           </TouchableOpacity>
 
           <TouchableOpacity style = {styles.Button}
@@ -40,9 +39,9 @@ export default function Login() {
             <Text style = {styles.ButtonText}>Login</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity
+          <TouchableOpacity style = {styles.ButtonR}
           onPress={() => navigation.navigate('Register')}>
-            <Text style = {styles.TextLinkR}>Not a user let ?</Text>
+                <Text style = {styles.TextLinkR}>Not a user let ?</Text>
           </TouchableOpacity>
 
        </View>

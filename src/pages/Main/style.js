@@ -66,7 +66,37 @@ export default StyleSheet.create({
     justifyContent : 'center',
     alignItems: 'center',
     borderStyle: 'solid',
-    borderColor : '#C6D0F5',
+    borderColor : '#E5C890',
+    borderWidth : 0.8
+  },
+
+  ButtonV: {
+    borderRadius : 20,
+    paddingVertical : 5,
+    width : '15%',
+    alignSelf: 'center',
+    marginLeft : 3,
+    marginRight: 5,
+    marginBottom: 5,
+    justifyContent : 'center',
+    alignItems: 'center',
+    borderStyle: 'solid',
+    borderColor : '#E78284',
+    borderWidth : 0.8
+  },
+
+  ButtonG: {
+    borderRadius : 20,
+    paddingVertical : 5,
+    width : '15%',
+    alignSelf: 'center',
+    marginLeft : 3,
+    marginRight: 5,
+    marginBottom: 5,
+    justifyContent : 'center',
+    alignItems: 'center',
+    borderStyle: 'solid',
+    borderColor : '#81C8BE',
     borderWidth : 0.8
   },
 
@@ -90,8 +120,18 @@ export default StyleSheet.create({
   },
 
   tag: {
-   color: '#C6D0F5'
+   color: '#E5C890'
   },
+
+  tag2: {
+    color: '#E78284'
+   },
+
+   tag3: {
+    color: '#81C8BE'
+   },
+   
+  
   ButtonPlus: {
     borderRadius : 100,
     paddingVertical : 5,

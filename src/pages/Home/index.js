@@ -9,9 +9,6 @@ import * as NavigationBar from 'expo-navigation-bar';
 
 export default function Home() {
   
-  NavigationBar.setVisibilityAsync("hidden");
- 
-
  return (
    <View style = {styles.container}>
 

@@ -50,7 +50,7 @@ export default function Routes (){
            <Stack.Screen
             name= "Block"
             component={Block}
-            options={{headerShown:false}}
+            options={{headerShown:false, presentation: 'transparentModal'}}
             />
 
            <Stack.Screen

@@ -2,13 +2,10 @@ import React from 'react';
 import { View, Text, TouchableOpacity,TextInput} from 'react-native';
 import styles from './style';
 import { useNavigation } from '@react-navigation/native';
-import * as NavigationBar from 'expo-navigation-bar';
 
 
 export default function Register() {
   const navigation = useNavigation();
-  NavigationBar.setVisibilityAsync("hidden");
-
   return (
     <View style = {styles.container}>
        <View style = {styles.containerBackground}>
@@ -39,11 +36,13 @@ export default function Register() {
            onPress={() => navigation.navigate('Login')}>
              <Text style = {styles.ButtonText}>Register</Text>
            </TouchableOpacity>
- 
-           <TouchableOpacity
+
+           <TouchableOpacity style = {styles.ButtonT}
            onPress={() => navigation.navigate('Login')}>
              <Text style = {styles.TextLinkR}>Already a user ?</Text>
            </TouchableOpacity>
+ 
+         
  
         </View>
      </View>

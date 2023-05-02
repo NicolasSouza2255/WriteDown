@@ -63,9 +63,17 @@ export default StyleSheet.create({
    TextLinkR: {
     fontSize: 12,
     color: '#C6D0F5',
-    marginTop:12,
     alignSelf:'center',
     textDecorationLine:'underline'
    },
- 
+
+   ButtonT: {
+    borderRadius : 50,
+    width : '30%',
+    alignSelf: 'center',
+    marginTop: 10,
+    justifyContent : 'center',
+    alignItems: 'center'
+  },
+  
 });
