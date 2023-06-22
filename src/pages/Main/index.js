@@ -6,7 +6,8 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 
 
-export default function Main() {
+
+export default function Main({route}) {
   
  const navigation = useNavigation();
 
@@ -16,7 +17,7 @@ export default function Main() {
          <Text style = {styles.title}>Notes</Text>
 
          <TouchableOpacity  
-          onPress={() => navigation.navigate('Menu')}>
+          onPress={() => navigation.navigate('Menu',{user:route.params?.user})}>
          <Text style = {styles.Menus}><Icon name="bars" size={50} color="#C6D0F5" /></Text>
          </TouchableOpacity>
      </View>
@@ -45,7 +46,7 @@ export default function Main() {
                <View style = {styles.NoteTitle}>
                  <Text style = {styles.textNoteTitle}><Icon name="angle-right" size={30} color="#C6D0F5" />  Locked </Text>
                 </View>
-                 <Text style = {styles.textNote}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet ex et luctus facilisis. Morbi ac arcu ac mi suscipit semper. Vivamus pellentesque lobortis pellentesque. Sed nec nisi malesuad</Text>
+                 <Text style = {styles.textNote}>....</Text>
                  </TouchableOpacity>
                 </View>
                 <View style = {styles.Note}>

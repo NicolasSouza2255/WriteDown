@@ -110,7 +110,8 @@ export default StyleSheet.create({
 
   textNote: {
     margin: 5,
-    color: '#C6D0F5'
+    color: '#C6D0F5',
+    padding: 5
   },
 
   textNoteTitle: {

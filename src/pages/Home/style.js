@@ -77,4 +77,20 @@ export default StyleSheet.create({
     borderWidth : 0.8
   },
 
+  ButtonPlus: {
+    borderRadius : 100,
+    paddingVertical : 5,
+    marginTop:15,
+    width : '17%',
+    alignSelf: 'flex-end',
+    marginLeft : 3,
+    marginRight: 5,
+    justifyContent : 'center',
+    alignItems: 'center',
+    borderStyle: 'solid',
+    borderColor : '#E78284',
+    borderWidth : 0.8,
+    
+  },
+
 });

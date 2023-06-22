@@ -17,6 +17,7 @@ export default function Login() {
   const navigation = useNavigation();
   const [getEmail, setEmail] = useState('');
   const [getSenha, setPassword] = useState('');
+  
 
 
  return (
@@ -64,7 +65,7 @@ export default function Login() {
               .then(resposta => resposta.json())
                 .then( (json) => {console.log(json);
                   if(json.isSuccessTypeResult){
-                    navigation.navigate('Main')
+                    navigation.navigate('Main',{user:json})
                   }//aqui fazer toast
                 })
                 .catch((error) => console.error(error));

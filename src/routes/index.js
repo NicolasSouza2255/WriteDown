@@ -19,31 +19,31 @@ export default function Routes (){
             <Stack.Screen
             name= "Login"
             component={Login}
-            options={{headerShown:false}}
+            options={{headerShown:false, presentation: 'transparentModal'}}
             />
 
         <Stack.Screen
             name= "Register"
             component={Register}
-            options={{headerShown:false}}
+            options={{headerShown:false, presentation: 'transparentModal'}}
             />
 
            <Stack.Screen
             name= "Forgot"
             component={Forgot}
-            options={{headerShown:false}}
+            options={{headerShown:false, presentation: 'transparentModal'}}
             />
 
            <Stack.Screen
             name= "Main"
             component={Main}
-            options={{headerShown:false}}
+            options={{headerShown:false, presentation: 'transparentModal'}}
             />
 
            <Stack.Screen
             name= "Menu"
             component={Menu}
-            options={{headerShown:false}}
+            options={{headerShown:false, presentation: 'transparentModal'}}
             />
 
             
@@ -56,7 +56,7 @@ export default function Routes (){
            <Stack.Screen
             name= "Note"
             component={Note}
-            options={{headerShown:false}}
+            options={{headerShown:false, presentation: 'transparentModal'}}
             />
 
 
